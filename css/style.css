@@ -1,0 +1,41 @@
+hr {
+    background-image: -webkit-linear-gradient(left, #fff, #E6E6E6, #fff);
+    background-image: -moz-linear-gradient(left, #fff, #E6E6E6, #fff);
+    background-image: -ms-linear-gradient(left, #fff, #E6E6E6, #fff);
+    background-image: -o-linear-gradient(left, #fff, #E6E6E6, #fff);
+    margin: 1em 0;
+}
+
+.chart {
+  height: 100%;
+}
+
+.bar-item {
+	display: inline-block;
+	width: 100%;
+}
+
+.val {
+	float: left;
+	margin-top: 4px;
+	margin-left: 4px;
+	font-family: Georgia;
+}
+
+.bar {
+	background-color: gray;
+	margin-top: 1px;
+	outline: 1px solid white;
+	color: white;
+	padding: 4px;
+	float: left;
+}
+
+.bar-dropout {
+	background-color: black;
+	margin-top: 1px;
+	outline: 1px solid white;
+	color: white;
+	padding: 4px;
+	float: left;
+}
